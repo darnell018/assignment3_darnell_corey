@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Assignment 3 – Flexbox</title>
+
+		<link type="text/css" rel="stylesheet" href="css/styles.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/ico" href="images/ltc-favicon.ico">
+		<link rel="icon" type="image/png" href="images/ltc-favicon.png">
+
+		<!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;0,800;0,900;1,300;1,400;1,700;1,800&display=swap" rel="stylesheet">
+
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<header>
+			<a href="index.html"><img src="images/ltc-logo.png" alt="Louis The Child" title="Louis The Child"></a>
+			<!-- START Desktop Menu -->
+			<nav class="main-menu">
+				<ul>
+					<li><a href="https://store.louisthechild.com/" target="_blank">Shop</a></li>
+					<li><a href="https://www.louisthechild.com/tour" target="_blank">Tour</a></li>
+					<li><a href="https://www.louisthechild.com/media" target="_blank">Media</a></li>
+					<li><a href="#stream" id="header-bttn">Listen Now</a></li>
+				</ul>
+			</nav>
+			<!-- END Desktop Menu -->
+
+			<!-- START Mobile Menu -->
+			<button class="hamburger">&#9776;</button>
+  		<button class="cross">&#735;</button>
+			<div class="menu">
+				<ul>
+					<li><a href="https://store.louisthechild.com/" target="_blank">Shop</a></li>
+					<li><a href="https://www.louisthechild.com/tour" target="_blank">Tour</a></li>
+					<li><a href="https://www.louisthechild.com/media" target="_blank">Media</a></li>
+					<li><a href="#spotify" id="stream-bttn">Listen Now</a></li>
+				</ul>
+			</div>
+			<!-- END Mobile Menu -->
+		</header>
+
+		<!-- START Hero Content -->
+		<div class="hero">
+			<h1>All the Essentials</h1>
+			<a href="#stream">Listen Now</a>
+		</div>
+		<!-- END Hero Content -->
+
+
+		<!-- START Page Content -->
+		<section class="grey-block">
+			<div class="flex-row">
+				<img src="images/louisthechild2.jpg" alt="Louis The Child" title="Louis The Child">
+				<div class="block-text-content content-1">
+					<h2>Louis The Child</h2>
+					<p>Louis the Child is a North Shore-based DJ and production duo consisting of Robby Hauldren and Frederic J. Kennett. They are best known for their singles "Better Not", "It's Strange", "Weekend", and "Fire", as well as pioneering the "Spacetastic Groove" electronic music genre.</p>
+				</div>
+			</div>
+
+			<div class="flex-row">
+				<img id="img-2" src="images/louisthechild3.jpg" alt="Louis The Child" title="Louis The Child">
+				<div class="block-text-content content-2">
+					<h2>On Tour</h2>
+					<p>Louis the Child will kick-off their 2021 Here For Now tour in the United States on July 29th in Austin, Texas playing at Stubb's Waller Creek Amphitheater with K.Flay and EVAN GIIA.</p>
+					<a href="https://www.louisthechild.com/tour" target="_blank">Tour Dates</a>
+				</div>
+			</div>
+		</section>
+
+		<div class="flex" id="stream">
+			<main>
+				<h3>About</h3>
+				<p>Louis the Child started playing at small venues through 2013 and 2014. In 2015, the band rose in popularity with the release of their single "It's Strange". Freddy Kennet was 17 at the time and still in high school. Robby Hauldren was beginning his freshman year at the University of Southern California.</p>
+
+				<p>The single garnered praise from artists such as Taylor Swift, who added "It's Strange" as one of her "Songs that Will Make Life Awesome" and was featured on the FIFA 16 soundtrack. "It’s Strange" was later featured in a commercial for the 2019 Nissan Kicks. They later opened for artists such as Madeon and The Chainsmokers. The duo embarked on their own tour on October 17, 2015, starting in Chicago.</p>
+
+				<h3>Albums</h3>
+				<p>In 2016, the duo joined forces with New Orleans rapper Pell as Pellican Child, releasing the single "Turn Me Down" from a proposed joint EP. That year, Louis the Child also released their Love Is Alive EP, a versatile set that featured the title track with guest vocalist Elohim and "Phone Died" with rapper Blaise Railey. Months later, they collaborated with Love Is Alive guest vocalist Ashe for another track, "Right to It." In 2018, the duo hit a milestone, teaming up with Aussie singer/songwriter Wafia for the gold-certified single "Better Not," their highest showing to date on the U.S. dance chart and their first chart hit in Australia. That track landed on their Kids at Play EP, which also featured Quinn XCII and NoMBe. Soon after, Louis the Child got to work on their first official full-length.<p>
+
+				<p>The life-affirming Here for Now arrived in 2020, loaded with U.S. Dance Top 30 hits "Free" with Drew Love, "Every Color" with Foster the People, and "Little Things" with Chelsea Cutler and Quinn XCII. The set also featured appearances by Atlanta rap duo EarthGang, returning collaborator K.Flay, and Bob Moses. A non-album track, "Somewhere Else" with BabyJake, arrived in February 2021.
+				</p>
+
+				<div class="albums">
+					<img src="images/ltc-candyii.jpg" alt="Candy II" title="Candy II">
+					<img src="images/ltc-herefornow.jpg" alt="Here For Now" title="Here For Now">
+					<img src="images/ltc-kidsatplay.jpg" alt="Kids At Play" title="Kids At Play">
+				</div>
+			</main>
+
+			<aside class="spotify">
+				<iframe id="spotify" title="Spotify Player: Louis The Child Complete Playlist" src="https://open.spotify.com/embed/playlist/2EDVrlFRWVNB7tebieuzNd" allow="encrypted-media"></iframe>
+			</aside>
+		</div>
+
+		<section class="references">
+			<h3>More Info</h3>
+			<p>In times where it becomes easiest to feel anything but, Louis the Child is here to make you happy. Over 50 million Spotify streams later, the two Chicago-bred wunderkinds have done just that, spreading glitzy, electronic bliss through stadium-ready anthems like "It's Strange," Icona Pop collaboration "Weekend," and "Fire."</p>
+
+			<p>Their versatility and emotional range shines through brightest on most recent release, "Love Is Alive" (ft. Elohim), showcasing an understated tenderness, which Billboard praised as "soft and soothing." Mixmag's #1 artist taking American dance music to the next level has quickly risen to headliner status.</p>
+
+			<h3>References</h3>
+			<div class="links">
+				<a href="https://en.wikipedia.org/wiki/Louis_the_Child_(DJs)" target="_blank">WikiPedia</a>
+				<a href="https://www.allmusic.com/artist/louis-the-child-mn0003430227/biography" target="_blank">AllMusic.com</a>
+				<a href="https://edm.fandom.com/wiki/Louis_The_Child" target="_blank">Fandom</a>
+			</div>
+		</section>
+		<!-- END Page Content -->
+
+		<footer>
+			<img src="images/crown-white.png" alt="Louis Crown" title="Louis Crown">
+			<p>Copyright Louis The Child. Coded & Designed by <a href="https://coreydarnell.com" target="_blank">Corey Darnell</a>.</p>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="js/mobile-menu.js"></script>
+
+	</body>
+</html>
